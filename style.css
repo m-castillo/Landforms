@@ -156,6 +156,7 @@
 
 #menuLink, #saltosLink, #montanasLink, #volcanesLink, #lagosLink, #canonesLink, #praderasLink, #vallesLink, #desiertosLink, #islasLink {
 	color: white;
+	font-size: 13.5px;
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;	font-weight: bold;
 	text-align: center;
 	float: left;
