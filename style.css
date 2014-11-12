@@ -1,0 +1,368 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+/* Cover Page  - Lines 7-40 */
+
+#frontPage {
+	background: url(imagesColor/grandCanyon.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#coverSp {
+	color: white;
+	text-decoration: underline;
+	font-size: 90px;
+	text-align: center;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	font-weight: 700;
+	line-height: 650px;
+}
+
+#instructionsSp, #instructionsEn {
+	color: white;
+	text-align: center;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 425px;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	font-size: 20px;
+}
+
+#instructionsEn {
+	display: none;
+}
+
+#clickMe {
+	height: 50px;
+	width: 300px;
+	background-color: hsla(360, 100%, 100%, 0.35);
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;	font-size: 20px;
+	border-radius: 55px;
+	margin-left: 550px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	transition: all 0.3s ease;
+}
+
+#clickMe:hover {
+	background-color: hsla(116, 100%, 76%, 0.35);
+	transition: all 0.3s ease;
+}
+
+/* Menu Page - Lines 44 - 128 */
+
+#menu {
+	width: 100%;
+	height: 100vh;
+}
+
+#lf1, #lf2, #lf3 {
+	width: 33.33%;
+	height: 33.33333vh;
+	float: left;
+} 
+
+#lf4, #lf5, #lf6 {
+	width: 33.33%;
+	height: 33.33333vh;
+	float: left;
+} 
+
+
+#lf7, #lf8, #lf9 {
+	width: 33.33%;
+	height: 33.33333vh;
+	float: left;
+}
+
+#lf1 {
+	background: url(imagesColor/waterfall.jpg);
+	background-size: cover;
+}
+
+#lf2 {
+	background: url(imagesColor/mountain.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf3 {
+	background: url(imagesColor/volcano.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf4 {
+	background: url(imagesColor/lake.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf5 {
+	background: url(imagesColor/canyon.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf6 {
+	background: url(imagesColor/prairie.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf7 {
+	background: url(imagesColor/valley.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf8 {
+	background: url(imagesColor/desert.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf9 {
+	background: url(imagesColor/island.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#lf1:hover > .subtitle, #lf2:hover > .subtitle, #lf3:hover > .subtitle, #lf4:hover > .subtitle, #lf5:hover > .subtitle, #lf6:hover > .subtitle, #lf7:hover > .subtitle, #lf8:hover > .subtitle, #lf9:hover > .subtitle {
+	width:100%;
+    height:100%;
+    background-color:#000;
+    opacity:0.8;
+    color: white;
+	line-height: 250px;
+	text-align: center;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+#saltosA {
+	opacity: 0;
+}
+
+
+/* Bar Menu - Lines 134-156 */
+
+
+#topMenu {
+	width: 100%;
+	height: 50px;
+	background-color: hsla(0, 0%, 0%, 0.37);
+	position: fixed;
+	top: 0px;
+	display: none;
+}
+
+#menuLink, #saltosLink, #montanasLink, #volcanesLink, #lagosLink, #canonesLink, #praderasLink, #vallesLink, #desiertosLink, #islasLink {
+	color: white;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;	font-weight: bold;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+	margin-left: 30px;
+	width: 110px;
+}
+
+#menuLink:hover, #saltosLink:hover, #montanasLink:hover, #volcanesLink:hover, #lagosLink:hover, #canonesLink:hover, #praderasLink:hover, #vallesLink:hover, #desiertosLink:hover, #islasLink:hover {
+	background-color: hsla(0, 0%, 62%, 0.5);
+	border-radius: 4px;
+}
+
+/* Main Content - Lines 162---.... */
+
+.mainText {
+	color: white;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;	width: 600px;
+	position: absolute;
+	background-color: hsla(0, 0%, 0%, 0.45);
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-indent: 50px;
+}
+
+.quotes {
+	font-size: 12px;
+	color: white;
+}
+
+/* Waterfalls */
+
+#saltos {
+	background: url(imagesColor/waterfall.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#saltosTextoSp, #saltosTextoEn {
+	
+	margin-top: 520px;
+	margin-left: 410px;	
+}
+
+#saltosTextoEn {
+	display: none;
+}
+
+/* Mountains */
+
+#montanas {
+	background: url(imagesColor/mountain.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#montanasTextoSp, #montanasTextoEn {
+	margin-top: 520px;
+	margin-left: 410px;
+}
+
+#montanasTextoEn {
+	display: none;
+}
+
+
+
+/* Volcanoes */
+
+#volcanes {
+	background: url(imagesColor/volcano.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+#volcanesTextoSp, #volcanesTextoEn {
+	margin-top: 460px;
+	margin-left: 50px;
+}
+
+#volcanesTextoEn {
+	display: none;
+}
+
+/* Lakes */
+
+#lagos {
+	background: url(imagesColor/lake.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#lagosTextoSp, #lagosTextoEn {
+	margin-top: 320px;
+	margin-left: 760px;
+}
+
+#lagosTextoEn {
+	display: none;
+}
+
+/* Canyons */
+
+#canones {
+	background: url(imagesColor/canyon.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#canonesTextoSp, #canonesTextoEn {
+	margin-top: 520px;
+	margin-left: 60px;
+}
+
+#canonesTextoEn {
+	display: none;
+}
+
+/* Prairies */
+
+#praderas {
+	background: url(imagesColor/prairie.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#praderasTextoSp, #praderasTextoEn {
+	margin-top: 170px;
+	margin-left: 60px;
+}
+
+#praderasTextoEn {
+	display: none;
+}
+
+/* Valleys */
+
+#valles {
+	background: url(imagesColor/valley.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#vallesTextoSp, #vallesTextoEn {
+	margin-top: 550px;
+	margin-left: 60px;
+}
+
+#vallesTextoEn {
+	display: none;
+}
+
+/* Deserts */
+
+#desiertos {
+	background: url(imagesColor/desert.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+#desiertosTextoSp, #desiertosTextoEn {
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+#desiertosTextoEn {
+	display: none;
+}
+
+/* Islands */
+
+#islas {
+	background: url(imagesColor/island.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+#islasTextoSp, #islasTextoEn {
+	margin-top: 600px;
+	margin-left: 410px;
+}
+
+#islasTextoEn {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
